@@ -5,7 +5,6 @@ curl -sS https://getcomposer.org/installer | php -- \
      --install-dir=/usr/local/bin --filename=composer
 
 echo 'Running composer'
-composer global require hirak/prestissimo
 composer install --no-dev --working-dir=/var/www/html
 
 echo 'Caching config...'
