@@ -4,6 +4,9 @@ echo 'Installing composer'
 curl -sS https://getcomposer.org/installer | php -- \
      --install-dir=/usr/local/bin --filename=composer
 
+apt-get install zip
+apt-get install git
+
 echo 'Running composer'
 composer install --no-dev --working-dir=/var/www/html
 
