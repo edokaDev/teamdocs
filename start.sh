@@ -7,7 +7,7 @@ curl -sS https://getcomposer.org/installer | php -- \
 echo 'Installing helper packages'
 apt-get install -y zip
 apt-get install -y git
-apt-get install -y php8.2-pgsql
+apt-get install -y php8.*-pgsql
 
 echo 'Running composer'
 composer install --no-dev --working-dir=/var/www/html
