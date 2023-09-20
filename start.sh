@@ -6,6 +6,7 @@ curl -sS https://getcomposer.org/installer | php -- \
 
 apt-get install -y zip
 apt-get install -y git
+apt-get install -y php-pgsql
 
 echo 'Running composer'
 composer install --no-dev --working-dir=/var/www/html
